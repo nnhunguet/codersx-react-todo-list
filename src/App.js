@@ -49,7 +49,7 @@ function App() {
         </a> */}
         <Header/>
         <h1> Sign Up</h1>
-        <FormLogin/>
+        <FormLogin email="abc@example.com"/>
       </header>     
       <section className="tab-menu">
         <table className="table-menu">  

@@ -8,7 +8,7 @@ class FormLogin extends Component{
           <div className="input-user wrap-input">
             <label for="username">Username</label>
             <div>
-              <input type="text" className="input" id="username" placeholder="Nguyen Nghia Hung"></input>
+              <input type="text" className="input" id="username" value={this.props.email}></input>
             </div>
           </div>
           <div className="input-password wrap-input">
