@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+
+function Menu(props) {
+  console.log(1);
+  return (<td className="wrapper-tabmenu">{props.icon}<p>{props.title}</p></td>)
+}
+
 class TabMenu extends Component{
   render() {
     return (
-      <td>
-        <div className="wrapper-tabmenu"> 
-          {this.props.icon}
-          <p>{this.props.title}</p>
-        </div>
-      </td>
+      this.props.items.map(item => {
+        return Menu(item)
+      })
     )
   }
 }

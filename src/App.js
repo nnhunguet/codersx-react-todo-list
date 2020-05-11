@@ -9,6 +9,28 @@ import { ReactComponent as Cloud } from './icons/cloud.svg';
 import { ReactComponent as Coffee } from './icons/coffee.svg';
 import { ReactComponent as Setting } from './icons/setting.svg';
 function App() {
+  const items = [
+    {
+      icon: <Home/>, 
+      title: "Home"
+    },
+    {
+      icon:<Gift/>,
+      title:"Deals"
+    },
+    {
+      icon:<Cloud/>,
+      title:"Upload"
+    },
+    {
+      icon:<Coffee/>,
+      title:"Work"
+    },
+    {
+      icon:<Setting/>,
+      title:"Settings"
+    }
+  ]
   return (
     <div className="App">
       <header className="App-header">
@@ -32,11 +54,7 @@ function App() {
       <section className="tab-menu">
         <table className="table-menu">  
           <tr>
-            <TabMenu icon={<Home/>} title="Home"/>
-            <TabMenu icon={<Gift/>} title="Deals"/>
-            <TabMenu icon={<Cloud/>} title="Upload"/>
-            <TabMenu icon={<Coffee/>} title="Work"/>
-            <TabMenu icon={<Setting/>} title="Settings"/>
+            <TabMenu items={items}/>
           </tr>
         </table>
       </section> 

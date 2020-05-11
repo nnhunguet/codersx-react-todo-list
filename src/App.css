@@ -150,7 +150,7 @@ h1 {
 }
 
 .tab-menu {
-  margin-top: 2rem;
+  margin: 2rem 0rem;
   display: flex;
   justify-content: center;
 }
@@ -187,6 +187,6 @@ td:first-child svg, td:first-child p{
 td:first-child{
   border-top: #1bc47d solid 2px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
