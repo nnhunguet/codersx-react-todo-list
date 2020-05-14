@@ -1,14 +1,23 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
-import FormLogin from './components/FormLogin'
-import TabMenu from './components/TabMenu'
+import Header from './components/Header';
+import FormLogin from './components/FormLogin';
+import TabMenu from './components/TabMenu';
+import SocicalNetWork from './components/SocialNetwork';
+import Status from './components/Status';
+
 import { ReactComponent as Home } from './icons/home.svg';
 import { ReactComponent as Gift } from './icons/gift.svg';
 import { ReactComponent as Cloud } from './icons/cloud.svg';
 import { ReactComponent as Coffee } from './icons/coffee.svg';
 import { ReactComponent as Setting } from './icons/setting.svg';
+
 function App() {
+
+  const friends = [
+
+  ]
+
   const items = [
     {
       icon: <Home/>, 
@@ -52,12 +61,24 @@ function App() {
         <FormLogin email="abc@example.com"/>
       </header>     
       <section className="tab-menu">
+        <h1> Tabmenu </h1>
         <table className="table-menu">  
           <tr>
             <TabMenu items={items}/>
           </tr>
         </table>
       </section> 
+
+      <div className="components-social-network">
+        <h1>Social NetWork</h1>
+        <SocicalNetWork />
+      </div>
+
+      <div className="container">
+        <div className="status"> 
+          <Status/>
+        </div>
+      </div>
     </div>
   );
 }

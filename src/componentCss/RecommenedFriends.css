@@ -1,0 +1,27 @@
+.left {
+  display: flex;
+  align-items: center;
+}
+
+p{
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.right {
+  color: #1876F2;
+}
+
+.desc p:last-child{
+  color: #c4c4c4;
+}
+
+.desc p:first-child {
+  font-weight: 500;
+}
+
