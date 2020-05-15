@@ -5,6 +5,7 @@ import FormLogin from './components/FormLogin';
 import TabMenu from './components/TabMenu';
 import SocicalNetWork from './components/SocialNetwork';
 import Status from './components/Status';
+import DynamicClassNames from './components/DynamicClassNames';
 
 import { ReactComponent as Home } from './icons/home.svg';
 import { ReactComponent as Gift } from './icons/gift.svg';
@@ -78,6 +79,10 @@ function App() {
         <div className="status"> 
           <Status/>
         </div>
+      </div>
+
+      <div className="dynamic-class-names">
+        <DynamicClassNames/>
       </div>
     </div>
   );
