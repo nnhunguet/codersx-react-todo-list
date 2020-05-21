@@ -193,7 +193,7 @@ h1 {
 }
 
 .container {
-  padding: 2rem 2rem;
+  margin: 2rem 2rem;
   background-color: #E5E5E5;
 }
 
@@ -379,4 +379,14 @@ svg {
 .active .component-active .image {
   width: 30px;
   margin-right: 8px;
+}
+
+.mail {
+  border:  black solid 1px;
+  width: 30%;
+}
+
+.dynamic-class-names {
+  margin: 2rem 2rem;
+  background-color: white;
 }

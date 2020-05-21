@@ -1,0 +1,23 @@
+.TodoItem {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgba(85, 85, 85, 0.9);
+  padding: 5px 0px;
+  padding-left: 0.5rem;
+  margin: 0px;
+  width: 90%;
+}
+
+.TodoItem-active {
+  background: rgba(221, 221, 221, 0.8);
+  border-radius: 0 35px 35px 0;
+  color: black;
+}
+
+.TodoItem::before {
+  content: '11';
+  margin-right: 0.5rem;
+}

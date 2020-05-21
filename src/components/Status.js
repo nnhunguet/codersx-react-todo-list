@@ -29,7 +29,7 @@ class Status extends Component {
         </div>
         <div className="content">
           <div className="session-1">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm-WfxJ4k7Tx47gKot8fGzVv6aEPHWBgfIgtU_uy5BDy1hBZWG&usqp=CAU" width="80px" height="80px" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTm-WfxJ4k7Tx47gKot8fGzVv6aEPHWBgfIgtU_uy5BDy1hBZWG&usqp=CAU" width="80px" height="80px" alt="photo"/>
           </div>
           <div className="title">
             <p>

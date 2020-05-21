@@ -14,11 +14,6 @@ import { ReactComponent as Coffee } from './icons/coffee.svg';
 import { ReactComponent as Setting } from './icons/setting.svg';
 
 function App() {
-
-  const friends = [
-
-  ]
-
   const items = [
     {
       icon: <Home/>, 

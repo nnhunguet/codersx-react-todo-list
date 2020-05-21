@@ -42,7 +42,9 @@ class DynamicClassNames extends Component {
     return (
       <>
         <div className="mail">
-          <Mail mails={this.mails}/>
+          {
+            this.mails.map(mail => <Mail mail={mail}/>)
+          }
         </div>
       </>
     )

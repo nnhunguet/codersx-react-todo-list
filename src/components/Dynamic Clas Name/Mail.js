@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
+import './css/Mail.css'
 
 class Mail extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
-    const { mails } = this.props;
+    const classNames = require('classnames')
+
+    const { mail } = this.props;
+    let className = classNames('TodoItem', {'TodoItem-active':mail.active})
     return (
-      <h1>{mails[0].title}</h1>
+      <div className="mail-item">
+        <p className={className}>{mail.title}</p>
+      </div>
     )
   }
 }

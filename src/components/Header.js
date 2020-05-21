@@ -12,7 +12,7 @@ class Header extends Component{
                 <b>Go back</b>
               </div>
               <div className="center-header">
-                <img src="https://yt3.ggpht.com/QxyJh1Z6iIsqKTxdyuExzNqQ9S8YiHWshcG0lfAg-T-UORK5uTQXAv0cZdPFwov-FCcHoEujfw=w1440-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj"   height="80px"></img>
+                <img src="https://yt3.ggpht.com/QxyJh1Z6iIsqKTxdyuExzNqQ9S8YiHWshcG0lfAg-T-UORK5uTQXAv0cZdPFwov-FCcHoEujfw=w1440-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj"   height="80px" alt="photo"></img>
               </div>
               <div className="right-header">
                 <p>
