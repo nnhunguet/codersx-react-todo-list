@@ -193,7 +193,7 @@ h1 {
 }
 
 .container {
-  margin: 2rem 2rem;
+  padding: 2rem 2rem;
   background-color: #E5E5E5;
 }
 
@@ -293,7 +293,7 @@ svg {
 }
 
 .friends {
-  margin-top: 2rem;
+  margin: 2rem 0;
   background-color: white;
   width: 50%;
 }

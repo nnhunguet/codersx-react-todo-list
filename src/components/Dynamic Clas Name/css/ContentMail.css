@@ -1,0 +1,21 @@
+.contentMail {
+  margin-top: 3rem;
+}
+
+.contentMail-header {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.contentMail-header .avatar {
+  width: 3rem;
+  height: 3rem;
+  background-image: url('https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/97997026_2623946491214360_3537896825233080320_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_oc=AQlFVDownMEklzTlqp-so4d3wtWnzzeLNbkhWVXZLLhRERmDiJw_8ojoE-pFZQF5D4s&_nc_ht=scontent.fhan2-3.fna&oh=de8cdddcbff86c4858f44d1c8388f0cd&oe=5EED31F4');
+  background-size: cover;
+  border: red solid 1px ;
+} 
+
+.contentMail-header p .display {
+  margin-right: 0.3rem;
+  color: #6c757d;
+}

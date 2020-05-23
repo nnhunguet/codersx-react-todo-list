@@ -2,9 +2,11 @@ import React, { Component } from 'react'
 import './css/Mail.css'
 
 class Mail extends Component {
+  constructor() {
+    super()
+  }
   render() {
     const classNames = require('classnames')
-
     const { mail } = this.props;
     let className = classNames('TodoItem', {'TodoItem-active':mail.active})
     return (
