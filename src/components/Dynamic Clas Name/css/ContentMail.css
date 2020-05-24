@@ -19,3 +19,38 @@
   margin-right: 0.3rem;
   color: #6c757d;
 }
+
+.postandseen {
+  width: 100%;
+  display: flex;
+}
+
+.right-avatar {
+  flex-grow: 1;
+}
+
+.wrap-button {
+  display: flex;
+  position: relative;
+}
+
+.wrap-button::before {
+  content: '';
+  flex-grow: 1;
+}
+
+.wrap-button button {
+  padding: 0.3rem 1rem;
+  background-color: #009AFF;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all .8s;
+}
+
+.wrap-button button:hover {
+  margin-top: 1rem;
+  background-color: white;
+  color: #009AFF;
+  transform: scale(1.3);
+}

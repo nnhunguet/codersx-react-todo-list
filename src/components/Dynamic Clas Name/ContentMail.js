@@ -12,15 +12,26 @@ class ContentMail extends Component {
         <header className='contentMail-header'>
           <div className='avatar'>
           </div>
-          <div>
-            <p>
-              <span className='display'>MEMBER SINCE</span>
-              <span>{Date()}</span>
-            </p>
-            <p>
-              <span className='display'>POST</span>
-              <span>1234</span> 
-            </p>
+          <div className='postandseen'>
+            <div className='right-avatar'>
+              <p>
+                <span className='display'>MEMBER SINCE</span>
+                <span>{Date()}</span>
+              </p>
+              <p>
+                <span className='display'>POST</span>
+                <span>1234</span> 
+              </p>
+            </div>
+            <div>
+              <p>
+                <span className='display'>MEMBER SINCE</span>
+              </p>
+              <p>
+                <span className='display'>POST</span>
+                <span>1234</span> 
+              </p>
+            </div>
           </div>
         </header>
         <hr></hr>
@@ -38,6 +49,11 @@ Ut eu culpa adipisicing laboris tempor voluptate enim aliqua consequat et labore
           </p>
         </div>
         <hr></hr>
+        <div className='wrap-button'>
+          <button>
+            Reply
+          </button>
+        </div>
       </div>
     )
   }

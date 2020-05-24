@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './css/table.css'
 
 class Table extends Component {
   constructor() {
@@ -6,8 +7,22 @@ class Table extends Component {
   }
 
   render() {
+    const { table } = this.props;
+    console.log(table);
     return (
-      <h1>Table</h1>
+      <div>
+        <table className='table'>
+          <tr className='row-class row-1'> 
+            <th>#</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Handle</th>
+          </tr>
+          {
+            table.map((item,index) => <tr><td>{index+1}</td><td>{item.first}</td><td>{item.last}</td><td>{item.handle}</td></tr>) 
+          }
+        </table>
+      </div>
     )
   }
 }

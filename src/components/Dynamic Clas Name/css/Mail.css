@@ -17,7 +17,6 @@
   color: black;
 }
 
-.TodoItem::before {
-  content: '11';
-  margin-right: 0.5rem;
+.mail-item {
+  display: flex;
 }

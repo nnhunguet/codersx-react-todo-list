@@ -4,13 +4,13 @@ import Mail from './Dynamic Clas Name/Mail';
 import ContentMail from './Dynamic Clas Name/ContentMail';
 import Table from './Dynamic Clas Name/Table';
 
-import { ReactCompnent as Email } from '../icons/email.svg'
-import { ReactCompnent as Star } from '../icons/star.svg'
-import { ReactCompnent as Clock } from '../icons/clock.svg'
-import { ReactCompnent as Important } from '../icons/important.svg'
-import { ReactCompnent as Sent } from '../icons/sent.svg'
-import { ReactCompnent as RecycleLetter } from '../icons/recycleLetter.svg'
-import { ReactCompnent as RecycleBin } from '../icons/recycleBin.svg'
+import { ReactComponent as Email } from '../icons/email.svg'
+import { ReactComponent as Star } from '../icons/star.svg'
+import { ReactComponent as Clock } from '../icons/clock.svg'
+import { ReactComponent as Important } from '../icons/important.svg'
+import { ReactComponent as Sent } from '../icons/sent.svg'
+import { ReactComponent as RecycleLetter } from '../icons/recycleLetter.svg'
+import { ReactComponent as RecycleBin } from '../icons/recycleBin.svg'
 
 class DynamicClassNames extends Component {
   constructor() {
@@ -51,6 +51,23 @@ class DynamicClassNames extends Component {
         image: <RecycleBin/>,
         active: false
       }
+    ];
+    this.table = [
+      {
+        first: 'Mark',
+        last: 'Otto',
+        handle: '@mdo'
+      },
+      {
+        first: 'Jacob',
+        last: 'Thornton',
+        handle: '@fat'
+      },
+      {
+        first: 'Mark',
+        last: 'Otto',
+        handle: 'mdo'
+      }
     ]
   }
   render() {
@@ -68,7 +85,7 @@ class DynamicClassNames extends Component {
         </div>
         <div className='table'>
           {
-            <Table/>
+            <Table  table={this.table}/>
           }
         </div>
       </>
