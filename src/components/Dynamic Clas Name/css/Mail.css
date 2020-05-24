@@ -20,3 +20,12 @@
 .mail-item {
   display: flex;
 }
+
+.mail-item svg {
+  margin-right: 0.5rem;
+}
+
+.mail-item  p {
+  display: flex;
+  align-items: center;
+}

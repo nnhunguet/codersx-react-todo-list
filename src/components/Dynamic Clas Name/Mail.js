@@ -13,7 +13,7 @@ class Mail extends Component {
     console.log(mail);
     return (
       <div className="mail-item">
-        <p className={className}>{mail.image}{mail.title}</p>
+        <p className={className}>{mail.image}<span>{mail.title}</span></p>
       </div>
     )
   }
