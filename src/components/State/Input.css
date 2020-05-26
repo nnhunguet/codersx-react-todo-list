@@ -1,0 +1,23 @@
+.wrap-InputState {
+  margin-top: 2rem;
+  margin-left:2rem ;
+}
+
+.wrap-InputState input {
+  width: 25%;
+  border: #2196F3 solid 1px;
+  outline: none;
+  height: 8vh;
+  margin: 3px 0px;
+}
+
+.wrap-InputState p {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2196F3;
+}
+
+.wrap-InputState svg {
+  padding-right: 5px;
+}
