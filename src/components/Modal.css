@@ -1,0 +1,53 @@
+.Modal {
+  display: block;
+  width: 60%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Modal .svg{
+  text-align: end;
+}
+
+.Modal svg {
+  cursor: pointer;
+}
+
+.Modal .para {
+  text-align: justify;
+}
+
+.Modal .btn {
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  border: none;
+  margin-right: 0.6rem;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.wrap-btn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end   ;
+}
+
+.wrap-btn .btn-accept {
+  background-color: #28A745;
+  color: #ffffff;
+}
+
+.wrap-btn .btn-decline {
+  background-color: #D63447;
+  color: #ffffff;
+}
+
+.modal-open {
+  display: block;
+  background-color: #E5E5E5;
+  padding: 2rem;
+}
+
+.modal-close {
+  display: none;
+}

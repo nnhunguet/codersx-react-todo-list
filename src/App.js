@@ -7,6 +7,7 @@ import SocicalNetWork from './components/SocialNetwork';
 import Status from './components/Status';
 import DynamicClassNames from './components/DynamicClassNames';
 import State from './components/State';
+import Modal from './components/Modal';
 
 import { ReactComponent as Home } from './icons/home.svg';
 import { ReactComponent as Gift } from './icons/gift.svg';
@@ -40,19 +41,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <TodoItem/>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
         <Header/>
         <h1> Sign Up</h1>
         <FormLogin email="abc@example.com"/>
@@ -65,24 +53,25 @@ function App() {
           </tr>
         </table>
       </section> 
-
       <div className="components-social-network">
         <h1>Social NetWork</h1>
         <SocicalNetWork />
       </div>
-
       <div className="container">
         <div className="status"> 
           <Status/>
         </div>
       </div>
-
       <div className="dynamic-class-names">
         <DynamicClassNames/>
       </div>
-
       <div className='State'>
         <State/>
+      </div>
+      <div className='wrap-Modal'>
+        <div className='Modal'>
+          <Modal/>
+        </div>
       </div>
     </div>
   );
